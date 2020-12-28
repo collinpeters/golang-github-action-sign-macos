@@ -1,11 +1,11 @@
 {
     "source" : ["./release/darwin/hello-github"],
-    "bundle_id" : "com.kencochrane.hello-github",
+    "bundle_id" : "com.sonatype.cpeters.test.hello-github",
     "apple_id": {
         "password":  "@env:AC_PASSWORD"
     },
     "sign" :{
-        "application_identity" : "4194587FE60D93D416CF3F4669FF913C7BBA4271"
+        "application_identity" : "Developer ID Application: Sonatype, Inc."
     },
     "dmg" :{
         "output_path":  "./release/darwin/hello-github.dmg",
